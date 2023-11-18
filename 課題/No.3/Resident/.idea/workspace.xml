@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0605afb-c7bd-4091-a990-ca5def35fdb0" name="Changes" comment="" />
+    <list default="true" id="a0605afb-c7bd-4091-a990-ca5def35fdb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../練習/menu creation/src/main/java/com/menu creation/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
