@@ -19,7 +19,7 @@ public class Resident {
         return month;
     }
 
-    public boolean isParking() {
+    public boolean hasParking() {
         return parking;
     }
 }
