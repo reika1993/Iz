@@ -1,4 +1,4 @@
-package com.Resident;
+package com.resident;
 
 public class Resident {
     private String name;
