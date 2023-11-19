@@ -30,7 +30,7 @@ public class Main {
 
 
         for (Resident resident : residents) {
-            if (!resident.isParking()) {
+            if (!resident.hasParking()) {
                 System.out.println("[" + resident.getName() + "]さんは駐車場を契約していません。");
             } else {
                 System.out.println("[" + resident.getName() + "]さんは駐車場を契約しています。");
