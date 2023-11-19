@@ -54,7 +54,7 @@ public class Main {
             String nameSearch = new java.util.Scanner(System.in).nextLine();
             System.out.println("検索結果");
             System.out.println("氏名：" + ResidentMap.get(nameSearch).getName());
-            System.out.println("入居月数：" + ResidentMap.get(nameSearch).getMonth());
+            System.out.println("入居月数：" + ResidentMap.get(nameSearch).getMonth() + "ヶ月");
             if (ResidentMap.get(nameSearch).isParking()) {
                 System.out.println("駐車場契約：有");
             } else {
