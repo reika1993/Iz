@@ -21,10 +21,11 @@ public class Main {
         System.out.println("こちらのマンションには、現在[" + residents.size() + "]世帯が住んでいます。");
 
         int count = 0;
-        for (Resident resident : residents)
+        for (Resident resident : residents){
             if (resident.getMonth() > 12) {
                 count++;
             }
+        }
         System.out.println("一年以上住んでいる世帯は[" + count + "]世帯です。");
 
 
@@ -38,24 +39,24 @@ public class Main {
 
         System.out.println("家賃は８万円、駐車場代は１万円なので");
         for (Resident resident : residents) {
-            if (!resident.isParking()) {
+            if (!resident.hasParking()) {
                 System.out.println("[" + resident.getName() + "]さんの月々の支払いは８万円です。");
             } else {
                 System.out.println("[" + resident.getName() + "]さんの月々の支払いは９万円です。");
             }
         }
-        Map<String, Resident> ResidentMap = new HashMap<>();
-        ResidentMap.put("田中", resident1);
-        ResidentMap.put("三神", resident2);
-        ResidentMap.put("水野", resident3);
-        ResidentMap.put("鈴木", resident4);
+        Map<String, resident> residentMap = new HashMap<>();
+        residentMap.put("田中", resident1);
+        residentMap.put("三神", resident2);
+        residentMap.put("水野", resident3);
+        residentMap.put("鈴木", resident4);
         System.out.println("検索したい住人の名前を入力してください。");
         try {
             String nameSearch = new java.util.Scanner(System.in).nextLine();
             System.out.println("検索結果");
-            System.out.println("氏名：" + ResidentMap.get(nameSearch).getName());
-            System.out.println("入居月数：" + ResidentMap.get(nameSearch).getMonth() + "ヶ月");
-            if (ResidentMap.get(nameSearch).isParking()) {
+            System.out.println("氏名：" + residentMap.get(nameSearch).getName());
+            System.out.println("入居月数：" + residentMap.get(nameSearch).getMonth() + "ヶ月");
+            if (residentMap.get(nameSearch).hasParking()) {
                 System.out.println("駐車場契約：有");
             } else {
                 System.out.println("駐車場契約：無し");
